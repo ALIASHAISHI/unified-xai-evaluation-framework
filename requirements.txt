@@ -1,0 +1,13 @@
+numpy==2.4.6
+pandas==3.0.3
+tensorflow==2.21.0
+scikit-learn==1.9.0 
+scipy==1.17.1
+matplotlib==3.10.9
+shap==0.52.0
+lime==0.2.0.1
+docent==0.1.73
+openpyxl==3.1.5
+huggingface_hub==1.18.0
+datasets==5.0.0
+

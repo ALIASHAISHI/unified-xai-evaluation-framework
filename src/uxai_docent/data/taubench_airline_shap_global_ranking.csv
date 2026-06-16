@@ -1,0 +1,7 @@
+attribute,mean_abs_shap
+Intent Alignment - Task (Flag (match/no match)),0.07870451754772588
+Plan Adherence Metric,0.010159652362298412
+Error Awareness & Recovery,0.0
+State Tracking Consistency,0.0
+Tool Correctness,0.0
+Tool Choice Accuracy,0.0

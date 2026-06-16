@@ -1,0 +1,51 @@
+﻿Task ID ,Task Success/Failure,Intent Alignment - Task (Flag (match/no match)),Error Awareness & Recovery,State Tracking Consistency,Tool Correctness,Tool Choice Accuracy,Plan Adherence Metric
+0,success,match,match,match,match,match,match
+1,success,match,no match ,match,match,match,match
+2,failure,match,match,no match ,match,match,match
+3,failure,match,no match ,no match ,no match ,match,no match
+4,failure,match,no match ,match,no match ,no match ,no match
+5,failure,match,no match ,no match ,no match ,no match ,no match
+6,failure,match,no match ,no match ,match,match,match
+7,failure,match,match,no match ,no match ,match,match
+8,failure,match,no match ,no match ,no match ,no match,no match
+9,success,match,no match ,no match ,no match ,no match,no match
+10,failure,match,match,match,match,match,match
+11,failure,match,no match ,match,match,match,match
+12,success,match,match,match,match,match,match
+13,failure,match,match,no match ,no match ,no match ,no match
+14,failure,no match,no match ,no match ,no match ,no match,no match
+15,success,match,match,match,match,match,match
+16,failure,match,match,match,match,match,match
+17,failure,match,no match ,no match ,match,match,no match
+18,success,no match,match,match,match,match,match
+19,failure,match,no match ,no match ,no match ,no match ,no match
+20,failure,match,match,match,match,match,match
+21,failure,match,no match ,match,match,match,match
+22,failure,match,no match ,no match ,no match ,match,match
+23,failure,no match,no match ,no match ,no match ,match,no match
+24,failure,no match,no match ,match,no match ,match,no match
+25,failure,match,no match ,no match ,match,match,match
+26,failure,match,no match ,no match ,no match ,match,no match
+27,success,match,match,no match ,match,match,no match
+28,failure,match,no match ,no match ,no match ,match,no match
+29,failure,match,no match ,no match ,no match ,match,no match
+30,failure,match,no match ,match,no match ,match,no match
+31,success,match,match,match,match ,match,match
+32,failure,match,no match ,match,match,match,match
+33,failure,match,match,no match ,no match ,no match,no match
+34,success,match,no match ,no match ,no match ,match,no match
+35,failure,no match,no match ,no match ,no match ,match,match
+36,success,no match,match,match,match,match,match
+37,success,match,match,match,match,match,no match
+38,success,match,match,match,match,match,match
+39,failure,match,no match ,no match ,no match ,match,match
+40,failure,match,no match ,no match ,no match ,match,match
+41,success,match,match,match,match,match,match
+42,success,no match,match,match,match,match,match
+43,success,match,match,match,match,match,match
+44,success,match,match,match,match,match,match
+45,failure,match,no match ,match,no match ,no match,no match
+46,failure,no match,match,match,match,match,match
+47,failure,match,match,match,match,match,match
+48,success,no match,match,match,match,match,match
+49,failure,match,no match ,no match ,no match ,match,no match

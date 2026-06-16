@@ -1,0 +1,130 @@
+================ METRICS ================
+
+
+--- Rubric: INTENT ALIGNMENT - TASK (FLAG (MATCH/NO MATCH)) ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure                5               28     33
+Success                4               13     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.152
+  P(flag | task success): 0.235
+  Delta: -0.084
+  Ratio: 0.644
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.444
+  P(task success | no flag): 0.317
+  Delta: 0.127
+  RR: 1.402
+
+------------------------------------------------------------
+
+--- Rubric: ERROR AWARENESS & RECOVERY ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure                0               33     33
+Success                0               17     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.0
+  P(flag | task success): 0.0
+  Delta: 0.0
+  Ratio: inf
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.0
+  P(task success | no flag): 0.34
+  Delta: -0.34
+  RR: 0.0
+
+------------------------------------------------------------
+
+--- Rubric: STATE TRACKING CONSISTENCY ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure                0               33     33
+Success                0               17     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.0
+  P(flag | task success): 0.0
+  Delta: 0.0
+  Ratio: inf
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.0
+  P(task success | no flag): 0.34
+  Delta: -0.34
+  RR: 0.0
+
+------------------------------------------------------------
+
+--- Rubric: TOOL CORRECTNESS ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure                0               33     33
+Success                0               17     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.0
+  P(flag | task success): 0.0
+  Delta: 0.0
+  Ratio: inf
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.0
+  P(task success | no flag): 0.34
+  Delta: -0.34
+  RR: 0.0
+
+------------------------------------------------------------
+
+--- Rubric: TOOL CHOICE ACCURACY ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure                4               29     33
+Success                1               16     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.121
+  P(flag | task success): 0.059
+  Delta: 0.062
+  Ratio: 2.061
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.2
+  P(task success | no flag): 0.356
+  Delta: -0.156
+  RR: 0.562
+
+------------------------------------------------------------
+
+--- Rubric: PLAN ADHERENCE METRIC ---
+
+Contingency Table:
+         Flag (no match)  No Flag (match)  Total
+Failure               17               16     33
+Success                4               13     17 
+
+Failure-Mode Prevalence (Table A3):
+  P(flag | task failure): 0.515
+  P(flag | task success): 0.235
+  Delta: 0.28
+  Ratio: 2.189
+
+Reliability Correlates (Table A4):
+  P(task success | flag): 0.19
+  P(task success | no flag): 0.448
+  Delta: -0.258
+  RR: 0.425
+
+------------------------------------------------------------
+
+Done.
